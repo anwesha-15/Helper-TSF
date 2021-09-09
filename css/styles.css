@@ -1,0 +1,200 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#title {
+  background-image: url("../images/background-image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  padding: 3% 14% 4.7%;
+}
+
+.navbar {
+  padding: 0 0 4.4rem;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 0.4rem;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #ffc0cb;
+}
+
+.donate-btn {
+  margin: 4% 2% 4% 0;
+}
+
+#prices {
+  padding: 3% 14%;
+}
+
+.card {
+  margin: 24px 4px;
+  min-height: 200px;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.6rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #ffc0cb;
+}
+
+.tagline, .donate-tagline, .prevention-tagline {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+}
+
+#about-us {
+  padding: 4.4% 12%;
+  background-color: #fff8dc;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.about-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.features-col {
+  text-align: center;
+  padding: 1%;
+}
+
+.icon {
+  color: #00008b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #333;
+}
+
+#donate, #prevention {
+  padding: 4.5% 14%;
+}
+
+#thankyou {
+  padding: 4.5% 12%;
+  background-color: #ffc0cb;
+}
+
+.testimonial-img1 {
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.testimonial-img2 {
+  width: 22%;
+  float: left;
+  margin-right: 50px;
+}
+
+.carousel-item {
+  padding: 4.5% 12%;
+}
+
+.thankyou-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.prevention-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#footer {
+  padding: 4.5% 14%;
+  background-color: #00008b;
+  text-align: center;
+}
+
+.social-icon {
+  color: #ffffff;
+  margin: 25px 20px;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 37px;
+  height: 39px;
+  background: #ff0000;
+  bottom: 30px;
+  right: 25px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 39px;
+  color: #ffffff;
+  font-size: 25px;
+}
